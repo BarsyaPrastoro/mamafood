@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<?php
-session_start();
-require 'session.php';
-
-
-?>
 <html>
     <head>
         <link rel="stylesheet" href="./asset/css/style.css">
