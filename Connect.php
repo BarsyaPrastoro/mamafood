@@ -5,6 +5,7 @@ $conn = mysqli_connect('localhost','id6813922_mamafood','mamafood123','id6813922
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+    echo "ga sukses";
 }
 $sql = ('select * from data_pedagang where statusAkun = 0');
 $sql0= ('select * from data_pedagang where statusAkun = 1');
