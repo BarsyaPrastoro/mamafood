@@ -21,7 +21,7 @@ if (isset($_POST['login'])) {
         }
     }
     else{
-        echo  '<h1><i>Akun Tidak Ditemukan</i></h1>';
+        echo  '<h1><i>Akun Tidak Dapat Ditemukan</i></h1>';
     }
 
     // if ($row['status'] === 1) {
